@@ -18,7 +18,7 @@ builder.Services.AddDbContext<AppDBContext>(option => option.UseSqlServer(builde
 builder.Services.AddTransient<IBrandService, BrandService>();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline
 
 app.UseAuthorization();
 
